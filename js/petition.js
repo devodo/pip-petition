@@ -1,5 +1,5 @@
 /* ============================================================
-   PIP — Plastic Is Pollution
+   POP — Planet Over Plastic
    Petition signing logic.
 
    How it works today (no server needed):
@@ -180,7 +180,7 @@
     var blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
     var link = document.createElement("a");
     link.href = URL.createObjectURL(blob);
-    link.download = "pip-petition-signatures.csv";
+    link.download = "planet-over-plastic-signatures.csv";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

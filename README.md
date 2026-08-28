@@ -1,6 +1,6 @@
-# PIP — Plastic Is Pollution: Petition Website
+# POP — Planet Over Plastic: Petition Website
 
-A simple static website for the PIP petition. No build step, no dependencies —
+A simple static website for the Planet Over Plastic (POP) petition — "Let's put our planet first." No build step, no dependencies —
 just open `index.html` in a browser.
 
 ## Hosting on GitHub Pages
@@ -18,7 +18,7 @@ skipping its default Jekyll build step.
 | Page | File | Purpose |
 |---|---|---|
 | Home | `index.html` | Landing page with the campaign headline and key stats |
-| About | `about.html` | Who PIP is, the campaign's story and demands |
+| About | `about.html` | Who POP is, the campaign's story and demands |
 | Sign the Petition | `sign.html` | Signature form + the petition document (table, CSV download, print view) |
 | What We're Doing | `what-we-are-doing.html` | Current, upcoming and completed campaign activity |
 
