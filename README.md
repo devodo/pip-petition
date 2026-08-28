@@ -5,11 +5,13 @@ just open `index.html` in a browser.
 
 ## Hosting on GitHub Pages
 
-The site deploys automatically: the `pages` workflow
-(`.github/workflows/pages.yml`) runs on every push to `main`, enables
-GitHub Pages on first run, and publishes the repository root at:
+GitHub Pages is configured to deploy from the `main` branch (root folder),
+so every push to `main` is published automatically at:
 
 **https://devodo.github.io/pip-petition/**
+
+The `.nojekyll` file tells GitHub to serve the files exactly as committed,
+skipping its default Jekyll build step.
 
 ## Pages
 
